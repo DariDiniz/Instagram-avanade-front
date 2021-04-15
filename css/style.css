@@ -5,3 +5,11 @@
 body {
     font-family: Arial, sans-serif; /* Fonte arial e se não tiver, usa qualquer uma sans-serif*/
 }
+
+main {
+    display: flex;
+}
+
+.logo {
+    width: 250px;
+}
