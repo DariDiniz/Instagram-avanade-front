@@ -8,8 +8,137 @@ body {
 
 main {
     display: flex;
+    justify-content: center; /* alinhamento na horizontal */
+    align-items: center; /* alinhamento na vertical */
+    padding: 50 px 0px;
 }
 
 .logo {
-    width: 250px;
+    width: 150px;
+}
+
+.login {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 40px 20px;
+}
+
+.login form input {
+    width: 100%;
+    height: 30px;
+    margin: 7px 0;
+    padding: 5px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.login form button{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+}
+
+.registro {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 40px 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.registro form input {
+    width: 100%;
+    height: 30px;
+    margin: 7px 0;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+
+.registro form button{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+}
+
+.banner_registro {
+    padding: 50px 0;
+}
+
+.cta-registro{
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+.main_post {
+    justify-content: center; /* alinhamento na horizontal */
+    align-items: center; /* alinhamento na vertical */
+    padding: 10 px 0px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+.cabecalho {
+    padding: 10px 10px;
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    align-content: center;
+    margin: 0 10px 0 0;
+}
+.publicacao{
+    width: 400px;
+    height: 300px;
+    padding: 0;
+}
+
+.opcoes{
+    margin-left: auto;
+}
+
+.titulo{
+    display: flex;
+    font-size: 14px;
+    align-content: space-between;
+}
+
+article{
+    font-size: 12px;
+}
+
+.publicar {
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.publicar form {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+}
+
+input{
+    width: 330px;
+    height: 40px;
+    border: none;
+}
+.publicar form button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    margin-left: auto;
 }
